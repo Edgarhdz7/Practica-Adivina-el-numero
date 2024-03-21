@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    color: yellow;
+    text-align: center;
+  }
+  
+  .characters-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .character {
+    flex: 1;
+  }
+  
+  .character-image {
+    max-width: 200px;
+  }
+  
+  .btn-yes,
+  .btn-no {
+    background-color: yellow;
+    color: black;
+  }
+  
+  .btn-yes:focus,
+  .btn-no:focus {
+    box-shadow: none;
+  }
+  
+  
